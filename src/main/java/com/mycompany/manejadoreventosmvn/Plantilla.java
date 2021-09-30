@@ -22,6 +22,9 @@ public class Plantilla extends javax.swing.JFrame {
      */
     public Plantilla() {
         initComponents();
+        Btn1.addActionListener(new Actions());
+        Btn2.addActionListener(new Actions2());
+        Btn3.addActionListener(new Actions3());
     }
 
     /**
@@ -130,9 +133,7 @@ public class Plantilla extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void Btn1MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_Btn1MouseClicked
-        title.setForeground(Color.green);
-        Btn1.setForeground(Color.red);
-        Btn3.setBackground(Color.blue);
+        
     }//GEN-LAST:event_Btn1MouseClicked
 
     private void Btn2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Btn2ActionPerformed
@@ -148,14 +149,11 @@ public class Plantilla extends javax.swing.JFrame {
     }//GEN-LAST:event_Btn2MouseReleased
 
     private void Btn2MouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_Btn2MouseEntered
-        Btn2.setForeground(Color.yellow);
-        Btn1.setBackground(Color.pink);
-        PanelTitle.setBackground(Color.cyan);
+        
     }//GEN-LAST:event_Btn2MouseEntered
 
     private void Btn3MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_Btn3MouseClicked
-        Btn2.setBackground(Color.ORANGE);
-        title.setForeground(Color.MAGENTA);
+        
         
     }//GEN-LAST:event_Btn3MouseClicked
 
